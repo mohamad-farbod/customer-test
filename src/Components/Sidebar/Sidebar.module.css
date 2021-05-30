@@ -1,0 +1,102 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  direction: rtl;
+  position: absolute;
+  right: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar li {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding: 0;
+  position: relative;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+.expandList {
+  display: none;
+}
+
+.active a {
+  color: blue;
+}
+
+.subList {
+  color: black;
+  position: absolute;
+  cursor: pointer;
+}
+
+.listActive {
+  background-color: rgb(94, 94, 250);
+  height: 30px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.listActive li {
+  margin-right: 0;
+}
+
+.listActive h5 {
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+    right: 0;
+    width: 50px;
+  }
+  .sidebar:hover {
+    width: 200px;
+    z-index: 10;
+  }
+}
+
+.subListWarning ul {
+  margin: 0;
+  padding: 0;
+}
+
+.subListWarning {
+  padding: 0;
+}

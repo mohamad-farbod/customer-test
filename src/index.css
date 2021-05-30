@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Farsi;
+  src: url("./Fonts/Parastoo-FD.eot");
+  src: url("./Fonts/Parastoo-FD.eot?#iefix") format("Farsi-opentype"),
+    url("./Fonts/Parastoo-FD.woff") format("woff"),
+    url("./Fonts/Parastoo-FD.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: Farsi, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

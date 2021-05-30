@@ -1,0 +1,8 @@
+export const ADD_NOTIFICATION = "ADD_NOTIFICATION";
+export const REDUCE_NOTIFICATION = "REDUCE_NOTIFICATION";
+
+export const ADD_MESSAGE = "ADD_MESSAGE";
+export const REDUCE_MESSAGE = "REDUCE_MESSAGE";
+
+export const IS_ADMIN = "IS_ADMIN";
+export const NOT_ADMIN = "NOT_ADMIN";

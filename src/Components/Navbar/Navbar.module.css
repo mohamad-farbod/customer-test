@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  height: 52px;
+  background-color: salmon;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+  color: white;
+}
+.navbar div {
+  margin-right: 10px;
+  align-items: center;
+}
+.duck {
+  display: flex;
+  height: 100%;
+}
+
+.duck img {
+  height: 40px;
+  border-radius: 15px;
+  margin: 0 5px 0 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin-left: 10px;
+}
+.icons img {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 9px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.iconContainer {
+  position: relative;
+}
+
+.messageCount {
+  width: 15px;
+  text-align: center;
+  height: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  background-color: green;
+  font-size: 12px;
+}
+
+.bottom {
+  position: absolute;
+  top: 17px;
+  left: 5px;
+  background-color: blue;
+}

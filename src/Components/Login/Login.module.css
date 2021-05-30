@@ -1,0 +1,106 @@
+.layout {
+  direction: rtl;
+
+  position: absolute;
+  right: 250px;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+h3 {
+  padding-right: 20px;
+}
+
+.main {
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+  border-radius: 2px;
+  width: 70vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  width: 80%;
+  align-items: center;
+  box-shadow: 1px 1px 2px 1px gray;
+  padding-bottom: 100px;
+}
+
+.inputElement input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border: none;
+  text-align: center;
+}
+
+.inputElement input:focus {
+  outline: none;
+}
+.inputElement label {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  z-index: 100;
+  background-color: white;
+  color: gray;
+  padding: 0px 10px;
+}
+
+.inputElement {
+  border: 1px solid gray;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  width: 50%;
+  height: 50px;
+  z-index: 0;
+  margin: 10px 0 40px 0;
+}
+
+.gender {
+  /* border: 1px solid gray; */
+  /* align-items: center; */
+  border-radius: 20px;
+  position: relative;
+  width: 50%;
+  height: 50px;
+  z-index: 0;
+  margin: 10px 0 20px 0;
+}
+
+.genderLabel {
+  position: absolute;
+  right: 0;
+}
+
+.gender label {
+  padding-left: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 100px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save {
+  background-color: rgb(12, 12, 146);
+}
+.cancel {
+  background-color: rgb(224, 97, 83);
+}
+
+.disabled {
+  background-color: rgba(102, 102, 102, 0.4);
+  cursor: not-allowed;
+}
